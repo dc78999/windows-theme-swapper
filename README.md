@@ -11,6 +11,12 @@
 - **No External Resources:** Generates its own system tray icon programmatically rendering a dynamic canvas—meaning no `.ico` files to keep track of.
 - **Single-File Executable:** Can be compiled down to a single binary around ~150KB for incredible portability.
 
+## Requirements
+
+To run the provided minimal binary release, you will need:
+- **OS:** Windows 10 or Windows 11
+- **Runtime:** [.NET 6.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (x64)
+
 ## Usage
 
 1. Launch `ThemeSwapper.exe`. It will quietly place a 🌗 icon in your system tray.
