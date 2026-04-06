@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Single-file / trimmed publish settings -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+    <!-- Assembly metadata -->
+    <AssemblyName>ThemeSwapper</AssemblyName>
+    <RootNamespace>ThemeSwapper</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>Lightweight system-tray app to toggle Windows Dark/Light theme via Alt+Shift+T</Description>
+  </PropertyGroup>
+
+</Project>
